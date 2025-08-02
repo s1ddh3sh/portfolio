@@ -12,7 +12,7 @@ export const siteConfig = {
   },
   aboutMe:
     "I'm a first-year MS by Research student in Computer Science and Engineering at IIT Bombay, advised by Prof. Sayandeep Saha. My research focuses on cryptography, particularly side-channel analysis and security. I also bring one year of industry experience, which informs my system-level understanding. Outside academics, I enjoy cycling, badminton, gym workouts, or anything that keeps me moving.",
-  skills: ["C++", "Linux", "SpringBoot", "Git/Github", "SQl", "AWS", "Docker"],
+  skills: ["C++", "Linux", "SpringBoot", "Git/Github", "SQl", "Python", "AWS",],
   projects: [
     {
       name: "PhotonDB",
