@@ -1,91 +1,61 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
+  name: "Siddhesh Shinde",
+  title: `MS By Research
+  Computer Science and Engineering, IIT Bombay`,
   description: "Portfolio website of Ryan Fitzgerald",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "siddh3sh.shinde@outlook.com",
+    linkedin: "https://linkedin.com/in/siddhesh-shinde-2108",
+    twitter: "https://x.com/siddh35h",
+    github: "https://github.com/s1ddh3sh",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I'm a first-year MS by Research student in Computer Science and Engineering at IIT Bombay, advised by Prof. Sayandeep Saha. My research focuses on cryptography, particularly side-channel analysis and security. I also bring one year of industry experience, which informs my system-level understanding. Outside academics, I enjoy cycling, badminton, gym workouts, or anything that keeps me moving.",
+  skills: ["C++", "Linux", "SpringBoot", "Git/Github", "SQl", "AWS", "Docker"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "PhotonDB",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "PhotonDB is a modern C++ rendition of a high-performance in-memory key-value database with MCP server. The data model is key-value, active development is underway to support a wide variety of value types.",
+      link: "https://github.com/s1ddh3sh/PhotonDB",
+      skills: ["C++", "Python", "C", "CMake"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "RailEase - Train Ticket Booking Application",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "RailEase is a web application designed for seamless ticket booking across the Mumbai local train network. The application allows users to book tickets between any two stations on the Western, Central, and Harbour lines.",
+      link: "https://github.com/s1ddh3sh/RailEase",
+      skills: ["Java", "SpringBoot", "HTML", "TypeScript", "CSS"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "MorningStar India",
+      title: "Associate Software Engineer",
+      dateRange: "July 2024 - July 2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Worked on implementing and optimizing data transfer pipelines using Python, Terraform and AWS services",
+        "Assisted development of Python-based automation scripts for SQL query generation and QA testing flow resulting faster development of SQL scripts for data pipeline.",
+        "Improved SQL procedures with different approaches, leading to a 25% efficiency in query processing time.",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: " CSE @IIT Bombay",
+      degree: "MS By Research in Computer Science and Engineering",
+      dateRange: "2025 - 2028",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Vidyalankar Institute of Technology",
+      degree: "Bachelor of Engineering in Information Technology",
+      dateRange: "2021-2024",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "CGPA : 9.47/10",
+       
       ],
     },
   ],
